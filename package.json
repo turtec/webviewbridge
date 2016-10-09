@@ -1,0 +1,105 @@
+{
+  "_args": [
+    [
+      "react-native-webview-bridge-updated@*1.0.4",
+      "/Users/saschaturowski/skoove_ios"
+    ]
+  ],
+  "_from": "react-native-webview-bridge-updated@1.0.4",
+  "_id": "react-native-webview-bridge-updated@1.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-webview-bridge-updated",
+  "_nodeVersion": "6.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-webview-bridge-updated-1.0.4.tgz_1473179291213_0.45893803518265486"
+  },
+  "_npmUser": {
+    "email": "zlotindaniel@gmail.com",
+    "name": "zlotindaniel"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {
+    "loose-envify": "1.2.0"
+  },
+  "_requested": {
+    "name": "react-native-webview-bridge-updated",
+    "raw": "react-native-webview-bridge-updated@*1.0.4",
+    "rawSpec": "*1.0.4",
+    "scope": null,
+    "spec": "1.0.4",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-webview-bridge-updated/-/react-native-webview-bridge-updated-1.0.4.tgz",
+  "_shasum": "40751abe1d7c6b2a93b2206b422406dcf0095198",
+  "_shrinkwrap": null,
+  "_spec": "react-native-webview-bridge-updated@*1.0.4",
+  "_where": "/Users/saschaturowski/skoove_ios",
+  "author": {
+    "name": "Ali Najafizadeh"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielZlotin/react-native-webview-bridge/issues"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Zlotin",
+      "email": "zlotindaniel@gmail.com"
+    },
+    {
+      "name": "Yedidya Kennard",
+      "email": "yedidyak@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "invariant": "2.2.0",
+    "keymirror": "0.1.1"
+  },
+  "description": "React Native WebView Javascript Bridge - updated",
+  "devDependencies": {},
+  "directories": {
+    "example": "examples",
+    "lib": "webview-bridge"
+  },
+  "dist": {
+    "shasum": "40751abe1d7c6b2a93b2206b422406dcf0095198",
+    "tarball": "https://registry.npmjs.org/react-native-webview-bridge-updated/-/react-native-webview-bridge-updated-1.0.4.tgz"
+  },
+  "gitHead": "5cf81ff06ae195052eb0e0c5ef92f43e09959218",
+  "homepage": "https://github.com/DanielZlotin/react-native-webview-bridge",
+  "keywords": [
+    "ios",
+    "react-component",
+    "react-native",
+    "webview-bridge"
+  ],
+  "license": "MIT",
+  "main": "webview-bridge",
+  "maintainers": [
+    {
+      "name": "yedidyak",
+      "email": "yedidyak@gmail.com"
+    },
+    {
+      "name": "zlotindaniel",
+      "email": "zlotindaniel@gmail.com"
+    }
+  ],
+  "name": "react-native-webview-bridge-updated",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DanielZlotin/react-native-webview-bridge.git"
+  },
+  "scripts": {
+    "build": ":",
+    "release": "npm version patch && npm publish && git push",
+    "test": ":"
+  },
+  "version": "1.0.4"
+}
