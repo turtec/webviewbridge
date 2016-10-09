@@ -122,6 +122,7 @@ var WebViewBridge = React.createClass({
   },
 
   render: function() {
+    alert('render');
     var otherView = null;
 
     if (this.state.viewState === WebViewBridgeState.LOADING) {
