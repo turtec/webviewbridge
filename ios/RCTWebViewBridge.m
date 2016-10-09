@@ -328,6 +328,8 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
     (function (window) {
       'use strict';
 
+      alert('bridge injected');
+      
       //Make sure that if WebViewBridge already in scope we don't override it.
       if (window.WebViewBridge) {
         return;
